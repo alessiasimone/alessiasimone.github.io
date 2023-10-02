@@ -399,8 +399,8 @@ align-items: center;
   cursor: pointer;
 }
 
-.skills__icon,
-.skills__arrow{
+.skills__arrow,
+.skills__icon{
   font-size: 2rem;
   color: var(--first-color);
 }
@@ -594,6 +594,18 @@ align-items: center;
   height: 100%;
   background-color: var(--first-color);
   transform: translate(6px, -7px)
+}
+
+.qualification [data-content]{
+  display: none;
+}
+
+.qualification__active[data-content]{
+ display: block; 
+}
+
+.qualification__button.qualification__active{
+  color: var(--first-color);
 }
 
 /*==================== SERVICES ====================*/
